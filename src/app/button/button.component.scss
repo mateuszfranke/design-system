@@ -1,11 +1,103 @@
 @import "../variables";
 
+$blue1: #3D5AFE;
+$grey1: #E0E0E0;
+$grey2: #9E9E9E;
+
+$width: 5rem;
+$height: 2rem;
 
 section{
   background-color: white;
 }
 .grid{
   display: grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(1,1fr);
+  padding: 2rem;
+  grid-row-gap: 2rem;
+}
 
+.item{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 0.8rem;
+}
+
+button{
+  width: 5rem;
+  height: 2rem;
+  font-family: 'Noto Sans JP', sans-serif;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 3px rgba(51, 51, 51, 0.2);
+
+}
+
+.button-grid{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.button-grid-left{
+  grid-template-columns: 1rem 1fr;
+
+}
+.button-grid-right{
+  grid-template-columns: 1fr 1rem;
+
+}
+
+.button{
+  background-color: $grey1;
+  color: #3F3F3F;
+  border: none;
+}
+.button-outline{
+  border: 1px solid $blue1;
+  color: $blue1;
+  background-color: white;
+}
+
+.button-text{
+  border: 1px solid white;
+  color: $blue1;
+  background-color: white;
+  box-shadow: none;
+}
+
+.button-disable-shadow{
+  color: white;
+  background-color: $blue1;
+  box-shadow: none;
+  border: none;
+}
+.button-disabled{
+  color: $grey2;
+  background-color: $grey1;
+  border: none;
+}
+button i {
+  font-size: 1rem;
+  display: inline;
+}
+
+.button-md{
+  color: white;
+  background-color: $blue1;
+  border: none;
+}
+
+.button-small{
+  color: white;
+  background-color: $blue1;
+  border: none;
+  width: $width/1.2;
+  height: $height/1.1;
+}
+.button-large{
+  color: white;
+  background-color: $blue1;
+  border: none;
+  width: $width * 1.4;
+  height: $height * 1.2;
 }
