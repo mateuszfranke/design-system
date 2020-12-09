@@ -1,27 +1,19 @@
 # DesignSystem
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
 
-## Development server
+## Button component
+- [Challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY)
+- [Figma](https://www.figma.com/file/vfMDJhGGnqfaskO2aud06o/button-component?node-id=0%3A1)
+- [Hosted App]()
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### User stories
+- I can see different button types: default, outline and text
+- I can choose to disable box-shadow
+- I can choose to disable button
+- I can choose to have an icon on the left or right (Use Google Icon and at least 5 variants)
+- I can have different button sizes
+- I can have different colors
+- I can see visual indicators
+- I can still access all button attributes
+- Show button in a similar way like the design or use Storybook. Otherwise, showing the button in multiple states is enough
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
