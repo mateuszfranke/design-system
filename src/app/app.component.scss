@@ -3,3 +3,15 @@
   grid-template-columns: 1fr 5fr;
   height: 100%;
 }
+
+small{
+  font-family: 'Montserrat', sans-serif;
+  color:#A9A9A9;
+  font-weight: 600;
+}
+
+footer{
+  display: grid;
+  justify-content: center;
+  padding: 2rem;
+}
