@@ -1,3 +1,29 @@
+@import "../variables";
+
 section{
-  background-color: lightgray;
+  background-color: #FAFBFD;
+  height: 100%;
+  display: grid;
+  justify-content: center;
 }
+ul{
+  padding: 0;
+}
+li{
+  color: #9E9E9E;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  list-style: none;
+  padding: 1rem 0;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 4rem 0;
+}
+span{
+  color: #F7542E;
+}
+
