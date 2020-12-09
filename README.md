@@ -4,7 +4,7 @@
 ## Button component
 - [Challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY)
 - [Figma](https://www.figma.com/file/vfMDJhGGnqfaskO2aud06o/button-component?node-id=0%3A1)
-- [Hosted App]()
+- [Hosted App](https://mateuszfranke.github.io/design-system/)
 
 #### User stories
 - I can see different button types: default, outline and text
