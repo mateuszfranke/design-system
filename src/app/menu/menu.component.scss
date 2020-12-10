@@ -2,9 +2,11 @@
 
 section{
   background-color: #FAFBFD;
-  height: 100%;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
+  padding-left: 2rem;
 }
 ul{
   padding: 0;
@@ -15,6 +17,11 @@ li{
   font-weight: 500;
   list-style: none;
   padding: 1rem 0;
+  cursor: pointer;
+  outline: none;
+}
+li:hover{
+  color: #090F31;
 }
 
 h1{
