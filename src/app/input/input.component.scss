@@ -2,6 +2,7 @@
 
 $width:200px;
 $height:56px;
+$red1:#D32F2F;
 
 .grid{
   display: grid;
@@ -41,6 +42,14 @@ input{
   display: inline-block;
   width: $width;
   height: $height
+}
+
+.input-error{
+  border: 1px solid $red1;
+
+}
+.label--error{
+  color:$red1;
 }
 
 input::placeholder{
