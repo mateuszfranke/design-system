@@ -41,7 +41,38 @@ input{
   border-radius: 8px;
   display: inline-block;
   width: $width;
-  height: $height
+  height: $height;
+  cursor: pointer;
+}
+.input--start-icon{
+  background-image: url("../../assets/phone.png");
+  font-family: 'Noto Sans JP', sans-serif;
+  border: 1px solid #828282;
+  border-radius: 8px;
+  display: inline-block;
+  width: $width;
+  height: $height;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: 0.3rem 1rem;
+  background-size: 1.5rem;
+}
+.input--end-icon {
+  background-image: url("../../assets/phone.png");
+  font-family: 'Noto Sans JP', sans-serif;
+  border: 1px solid #828282;
+  border-radius: 8px;
+  display: inline-block;
+  width: $width;
+  height: $height;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: 10rem 1rem;
+  background-size: 1.5rem;
+}
+
+.input--start-icon::placeholder{
+  text-indent: 2rem;
 }
 
 .input-error{
@@ -50,6 +81,16 @@ input{
 }
 .label--error{
   color:$red1;
+}
+
+.input--disabled{
+  font-family: 'Noto Sans JP', sans-serif;
+  border-radius: 8px;
+  display: inline-block;
+  width: $width;
+  height: $height;
+  background: #F2F2F2;
+  border: 1px solid #E0E0E0;
 }
 
 input::placeholder{
@@ -77,4 +118,11 @@ input::placeholder{
 textarea{
   border: 1px solid #828282;
   border-radius: 8px;
+}
+
+p{
+  font-family: 'Noto Sans JP', sans-serif;
+  color:#828282;
+  font-size: 0.6rem;
+  margin: 0;
 }
