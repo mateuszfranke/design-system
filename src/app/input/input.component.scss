@@ -1,0 +1,30 @@
+@import "../variables";
+.grid{
+  display: grid;
+  padding: 2rem;
+}
+
+.example{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 1rem;
+}
+
+.example--input{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 0.5rem;
+}
+
+label{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 0.8rem;
+}
+input{
+  font-family: 'Noto Sans JP', sans-serif;
+  border: 1px solid #828282;
+  border-radius: 8px;
+  display: inline-block;
+  width: 200px;
+  height: 56px;
+}
