@@ -1,6 +1,20 @@
 @import "../variables";
+
+$width:200px;
+$height:56px;
+
 .grid{
   display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.body{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 4rem;
+}
+
+.p2{
   padding: 2rem;
 }
 
@@ -25,6 +39,33 @@ input{
   border: 1px solid #828282;
   border-radius: 8px;
   display: inline-block;
-  width: 200px;
-  height: 56px;
+  width: $width;
+  height: $height
+}
+
+input::placeholder{
+  text-indent: 1rem;
+}
+
+.input-sm{
+  font-family: 'Noto Sans JP', sans-serif;
+  border: 1px solid #828282;
+  border-radius: 8px;
+  display: inline-block;
+  width: $width/1.2;
+  height: $height/1.4;
+}
+
+.input--full-width{
+  font-family: 'Noto Sans JP', sans-serif;
+  border: 1px solid #828282;
+  border-radius: 8px;
+  display: inline-block;
+  width: 100%;
+  height: $height
+}
+
+textarea{
+  border: 1px solid #828282;
+  border-radius: 8px;
 }
